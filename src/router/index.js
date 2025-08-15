@@ -4,13 +4,13 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
+    /*     {
       path: '/',
       name: 'inicio',
       component: HomeView,
-    },
+    }, */
     {
-      path: '/creation-model',
+      path: '/',
       name: 'creation-model',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route

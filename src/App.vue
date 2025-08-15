@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <span class="font-bold pl-1">Legal</span>
         </p>
         <div class="flex gap-4 items-center font-semibold">
-          <RouterLink to="/" custom v-slot="{ href, navigate, isExactActive }">
+          <!--           <RouterLink to="/" custom v-slot="{ href, navigate, isExactActive }">
             <a
               :href="href"
               @click="navigate"
@@ -24,8 +24,8 @@ import { RouterLink, RouterView } from 'vue-router'
             >
               INICIO
             </a>
-          </RouterLink>
-          <RouterLink to="/creation-model" custom v-slot="{ href, navigate, isActive }">
+          </RouterLink> -->
+          <RouterLink to="/" custom v-slot="{ href, navigate, isActive }">
             <a
               :href="href"
               @click="navigate"
